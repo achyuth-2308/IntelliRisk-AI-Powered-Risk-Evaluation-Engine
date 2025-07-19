@@ -65,5 +65,78 @@ venv\Scripts\activate     # For Windows
 ```
 pip install -r requirements.txt
 ```
+4. 🔑 Add Gemini API Key
+> Obtain your Google Gemini Pro API key from Google AI Studio.
 
+Then, create a .env file in the project root and add:
 
+```ini
+Copy
+Edit
+GEMINI_API_KEY=your_api_key_here
+```
+Ensure python-dotenv is installed to auto-load it. If not:
+
+```bash
+Copy
+Edit
+pip install python-dotenv
+```
+5. 🛠️ Run the Application
+```bash
+Copy
+Edit
+python app.py
+```
+Open your browser and navigate to http://127.0.0.1:5000 to use IntelliRisk.
+
+---
+
+## 📌 Sample Use Case
+- Client: A multinational engineering firm wants to submit a new industrial motor for global compliance evaluation.
+- Input: Product spec sheet PDF with 30+ technical parameters.
+
+### Output from IntelliRisk:
+
+- Identified that thermal shielding material doesn’t comply with updated ISO standards.
+- Recommended materials with links to suppliers.
+- Suggested updated documentation sections with Gemini-generated content.
+
+## 📚 Behind the Scenes
+- This project was developed as part of a GenAI Solutioning Project focused on:
+- Architecting multi-agent systems (LangChain, LangGraph, LLaMa Index, CrewAI)
+- Developing domain-specific RAG pipelines
+- Integrating Gemini with enterprise data layers
+- Collaborating with product owners and client teams for technical PoCs
+
+---
+
+## 🔒 Data Privacy & Limitations
+- No OpenAI APIs used.
+- All processing is done with Google Gemini APIs.
+- Ensure documents don’t contain sensitive PII before uploading.
+- Not a replacement for human audit — acts as a GenAI-assisted compliance co-pilot.
+
+---
+
+## 🧠 Future Enhancements
+- Multi-document evaluation and version control
+- Real-time collaboration for compliance teams
+- Integration with enterprise CRMs (SAP, Oracle)
+- LangGraph-based multi-agent orchestration
+- Support for voice-based document walkthroughs
+
+---
+
+## 🤝 Contributions
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 🪪 License
+This project is licensed under the MIT License.
+
+---
+
+## 📫 Contact
+For collaborations or enterprise inquiries: achyuth2004@gmail.com
