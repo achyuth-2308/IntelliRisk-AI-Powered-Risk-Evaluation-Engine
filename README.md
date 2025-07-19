@@ -71,21 +71,15 @@ pip install -r requirements.txt
 Then, create a .env file in the project root and add:
 
 ```ini
-Copy
-Edit
 GEMINI_API_KEY=your_api_key_here
 ```
 Ensure python-dotenv is installed to auto-load it. If not:
 
 ```bash
-Copy
-Edit
 pip install python-dotenv
 ```
 5. 🛠️ Run the Application
 ```bash
-Copy
-Edit
 python app.py
 ```
 Open your browser and navigate to http://127.0.0.1:5000 to use IntelliRisk.
