@@ -53,7 +53,7 @@ The solution is part of a broader initiative to embed GenAI into enterprise work
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/intellirisk.git
+   git clone https://github.com/achyuth-2308/IntelliRisk-AI-Powered-Risk-Evaluation-Engine.git
    cd intellirisk
 2. **Create virtual environment**
 ```
